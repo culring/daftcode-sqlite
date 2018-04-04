@@ -1,1 +1,1 @@
-web: GUNICORN_CMD_ARGS="--workers=1" gunicorn test:app
+web: GUNICORN_CMD_ARGS="--workers=1" gunicorn solution:app
